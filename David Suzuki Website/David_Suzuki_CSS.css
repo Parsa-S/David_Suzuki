@@ -1,0 +1,124 @@
+body {
+	text-align: left;
+	font-family: Caslon;
+	color: #444444;
+	font-size: 22px;
+	background-image: url(Forest_Background_Final.jpg);
+	background-size: cover;
+}
+
+body.Gallery {
+	background-image: url(oak-leaf-tile.jpg);
+	background-size: auto;
+}
+
+
+div {
+	margin-bottom: 20px;
+	margin-left: 100px;
+	margin-right: auto;
+	width: 550px;
+	border: 8px #ACC2B8 solid;
+	padding-left: 15px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-top: 8px;
+	border-radius: 5px;
+	background-color: #cde8e5;
+}
+
+div.one {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 800px;
+}
+
+
+
+
+h3 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	
+}
+
+
+
+
+h1 {
+	color: #B2BABB;
+	margin-top: -2px;
+	font-size: 50px;
+	margin-bottom: 7px;
+	
+}
+h2 {
+	color: #B2BABB;
+	margin-top: -9;
+	margin-bottom: -9;
+	
+}
+
+hr {
+	border: 1px solid #B2BABB;
+	
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #7fc77d;
+}
+
+a:hover{
+	text-decoration: underline;
+	
+}
+
+a:active{
+	color: black;
+}
+
+
+img{
+	width: 600px;
+	border: 3px #ACC2B8 solid;
+	margin-left: auto;
+	border-radius: 15px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+div.Gallery {
+	border: ;
+	padding: 5px;
+	width: 610px;
+	background-color: #55AA55;
+	border: 8px #55455E solid;
+}
+
+
+
+
+
+td, th {
+	padding: 10px;
+	border-bottom: 2px solid black;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+th {
+	font-family: Verdana;
+	font-size: 30px;
+}
+
+td {
+	font-size: 20px;
+	
+}
+table {
+	width: 100%;
+	background-color: #9EE3DB;
+
+}
