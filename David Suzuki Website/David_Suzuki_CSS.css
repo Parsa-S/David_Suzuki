@@ -8,8 +8,9 @@ body {
 }
 
 body.Gallery {
-	background-image: url(oak-leaf-tile.jpg);
+	background-image: url(Forest_Background_Final.jpg);
 	background-size: auto;
+	backround-repeat: no repeat;
 }
 
 
@@ -18,13 +19,13 @@ div {
 	margin-left: 100px;
 	margin-right: auto;
 	width: 550px;
-	border: 8px #ACC2B8 solid;
-	padding-left: 15px;
-	padding-right: 5px;
-	padding-bottom: 10px;
-	padding-top: 8px;
+	border: 6px #0d1405 solid;
+	padding-left: 30px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-top: 16px;
 	border-radius: 5px;
-	background-color: #cde8e5;
+	background-color: #c2e0a3;
 }
 
 div.one {
@@ -62,7 +63,8 @@ h2 {
 
 hr {
 	border: 1px solid #B2BABB;
-	
+	width: 550px;
+	margin-left: 0px;
 }
 
 a:link, a:visited {
@@ -82,19 +84,26 @@ a:active{
 
 img{
 	width: 600px;
-	border: 3px #ACC2B8 solid;
+	border: 3px #c2e0a3 solid;
 	margin-left: auto;
 	border-radius: 15px;
 	margin-top: 20px;
 	margin-bottom: 5px;
 }
 
+img.Title {
+	width: 520px;
+	margin-top: 5px;
+}
+img.Acp {
+	width: 780px;
+}
+
 div.Gallery {
 	border: ;
-	padding: 5px;
+	padding: 20px;
 	width: 610px;
-	background-color: #55AA55;
-	border: 8px #55455E solid;
+	border: 8px #000000 solid;
 }
 
 
@@ -119,6 +128,5 @@ td {
 }
 table {
 	width: 100%;
-	background-color: #9EE3DB;
 
 }
